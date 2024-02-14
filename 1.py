@@ -16,7 +16,7 @@ for stroke in table:
         if cnt > 0:
             print(stroke[1], stroke[0])
         else:
-            original = "Оригинальный рецепт принадлеит: " + stroke[1]
+            original = "Оригинальный рецепт принадлежит: " + stroke[1]
         cnt += 1
 print(original)
 
